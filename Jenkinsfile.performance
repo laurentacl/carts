@@ -46,7 +46,7 @@ pipeline {
         }
         
         echo "Waiting for a minute to not skew data in DT"
-        sleep(120)
+        sleep(60)
       }
     }
 
